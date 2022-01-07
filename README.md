@@ -1,3 +1,5 @@
+![This is an image](https://github.com/tanuj888/Terraform-with-CI-CD/blob/main/Terraform.png)
+
 # Project Title -Terraform-with-CI-CD
 This project is used to deploy Infrastructure through terraform and automating it with the help of Jenkins CI/CD pipeline.
 
