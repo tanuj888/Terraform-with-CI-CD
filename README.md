@@ -9,20 +9,16 @@ This Project contains a full, real-world solution for setting up an environment 
 ### Technology Used/Details
 You will be using the following technologies and platforms to set up a DevOps environment.
 
-1. AWS
-   
-   AWS will be used to host the application, cloud infrastructure, and any other services we may need to ensure the VPC is deployed properly.
+1. AWS 
+   - AWS will be used to host the application, cloud infrastructure, and any other services we may need to ensure the VPC is deployed properly.
 
 2. GitHub
-   
-   To store the application and infrastructure/automation code
+   - To store the application and infrastructure/automation code
    
 3. Terraform
-    
-   To automate the infrastructure deployment on AWS 
+   - To automate the infrastructure deployment on AWS 
    
  4. Jenkins CI/CD
-    
-    Used Jenkins  to create CI and CD pipeline
+    - Used Jenkins  to create CI and CD pipeline
 
 
