@@ -22,3 +22,4 @@ You will be using the following technologies and platforms to set up a DevOps en
     - Used Jenkins  to create CI and CD pipeline
 
 
+
