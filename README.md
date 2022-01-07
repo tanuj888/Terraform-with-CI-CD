@@ -9,7 +9,7 @@ You will be using the following technologies and platforms to set up a DevOps en
 
 1. AWS
    
-   AWS will be used to host the application, cloud infrastructure, and any other services we may need to ensure the Uber app is deployed properly.
+   AWS will be used to host the application, cloud infrastructure, and any other services we may need to ensure the VPC is deployed properly.
 
 2. GitHub
    
