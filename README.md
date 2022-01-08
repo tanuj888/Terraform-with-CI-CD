@@ -17,5 +17,5 @@ You will be using the following technologies and platforms to set up a DevOps en
 
 ## Prerequisites
 1. AWS EC2 linux/ubuntu instance
-2. Configure Jenkins on the AWS instance by following the steps mentioned [here](https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/l)
+2. Configure Jenkins on the AWS instance by following the steps mentioned [here](https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/)
 
