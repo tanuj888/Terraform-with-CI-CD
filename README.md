@@ -14,8 +14,13 @@ You will be using the following technologies and platforms to set up a DevOps en
    - To automate the infrastructure deployment on AWS 
 4. Jenkins CI/CD
     - Used Jenkins  to create CI and CD pipeline
+5. Git bash
+    - This tool is ues to SSH in EC2 instance and to push local files to git hub
 
 ## Prerequisites
-1. AWS EC2 linux/ubuntu instance
-2. Configure Jenkins on the AWS instance by following the steps mentioned [here](https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/)
+1. **AWS EC2** linux/ubuntu instance
+2. Configure **Jenkins** on the AWS instance by following the steps mentioned [here](https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/)
+3. Install necessay plugin on Jenkins like **Terraform, Github**.
+4. **Install Terraform** on the same EC2 instance by following the steps mentioned [here](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+5. 
 
