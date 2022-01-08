@@ -27,7 +27,7 @@ You will be using the following technologies and platforms to set up a DevOps en
 7. Create an **IAM role** with full **administrative access** and attach it to the EC2 instance.
 
 ## Steps Performed in the Project
-1. ### Created a directory in local machine and create two terraform files-
+1. ### Create a directory in local machine and create two terraform files in it-
      - Provider.tf to mention the AWS provided with the region defined. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
      - VPC.tf to mentioned the virtual private cloud components. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc)
      
@@ -39,6 +39,38 @@ You will be using the following technologies and platforms to set up a DevOps en
  git remote add origin  <REMOTE_URL> 
  git remote -v
  git push origin main/master
- 
  ````
+3. Create New pipeline Project in Jenkins
+4. Mentioned the stages in the groovy script
+
+````
+pipeline{
+    agent any
+    tools {
+        terraform 'terraform-11'
+    }
+    stages{
+        stage('Git Checkout'){
+           steps{  
+                git credentialsId: '30c1c3e9-2949-4138-971d-xxxxxxxx', url: 'https://github.com/tanuj888/Terraform-with-CI-CD'
+            } 
+        }
+        stage('Terraform init'){
+            steps{  
+               sh 'terraform init'
+            }
+        }
+        stage('Terraform Apply'){
+            steps{  
+               sh 'terraform apply --auto-approve'
+            }
+        }
+        stage('Terraform Destroy'){
+            steps{  
+               sh 'terraform destroy --auto-approve'
+            } 
+        }
+    }    
+}
+````
  
