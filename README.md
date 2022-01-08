@@ -26,3 +26,7 @@ You will be using the following technologies and platforms to set up a DevOps en
 6. Integrate/Configure **Github with Jenkins** by following the steps [here](https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project)
 7. Create an **IAM role** with full **administrative access** and attach it to the EC2 instance.
 
+## Steps Performed in the Project
+1. Created a directory in local machine and crated two terraform files-
+   .provider.tf to mention the AWS provided with the region defined
+   VPC.tf to mentioned the virtual private cloud components
