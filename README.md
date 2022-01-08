@@ -74,3 +74,4 @@ pipeline{
 }
 ````
  
+5. As soon you hit save, click on build now to build this pipeline.
