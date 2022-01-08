@@ -22,5 +22,5 @@ You will be using the following technologies and platforms to set up a DevOps en
 2. Configure **Jenkins** on the AWS instance by following the steps mentioned [here](https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/)
 3. Install necessay plugin on Jenkins like **Terraform, Github**.
 4. **Install Terraform** on the same EC2 instance by following the steps mentioned [here](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-5. Install git on the instance by `sudo yum install git -y`
+5. **Install git** on the instance by `sudo yum install git -y`
 
