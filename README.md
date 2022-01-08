@@ -78,5 +78,5 @@ pipeline{
 
    ![](https://github.com/tanuj888/Terraform-with-CI-CD/blob/main/build.JPG)
 6. Go to your AWS Console and you'll find a new VPC created. 
-7. **Clean Up**
+7. **Clean Up Resources**
   * Add a step **Terraform destroy** in the pipeline as mentioned in the scipt above which will destroy the created infrastructure. 
