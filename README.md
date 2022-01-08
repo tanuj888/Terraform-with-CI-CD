@@ -75,3 +75,5 @@ pipeline{
 ````
  
 5. As soon you hit save, click on build now to build this pipeline.
+
+   ![](https://github.com/tanuj888/Terraform-with-CI-CD/blob/main/build.JPG)
