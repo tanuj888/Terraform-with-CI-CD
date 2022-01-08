@@ -1,7 +1,7 @@
 ![This is an image](https://github.com/tanuj888/Terraform-with-CI-CD/blob/main/Terraform.png)
 
 ## Project Title -Terraform-with-CI-CD
-This project is used to deploy Infrastructurelike VPC,subnets through terraform and automating it with the help of Jenkins CI/CD pipeline.
+This project is used to deploy Infrastructure like VPC,subnets through terraform and automating it with the help of Jenkins CI/CD pipeline.
 ## Project Description
 This Project contains a full, real-world solution for setting up an environment using DevOps technologies and practices for deploying cloud services/cloud infrastructure like Virtual Private Cloud to AWS.
 ## Technology Used/Details
@@ -40,7 +40,7 @@ You will be using the following technologies and platforms to set up a DevOps en
  git remote -v
  git push origin main/master
  ````
-3. Create New pipeline Project in Jenkins
+3. Create a new pipeline Project in Jenkins
 4. Mentioned the stages in the groovy script
 
 ````
@@ -79,4 +79,4 @@ pipeline{
    ![](https://github.com/tanuj888/Terraform-with-CI-CD/blob/main/build.JPG)
 6. Go to your AWS Console and you'll find a new VPC created. 
 7. Clean Up
-  * Add a step **Terraform destroy** as mentioned in the scipt above which will destroy the created infrastructure. 
+  * Add a step **Terraform destroy** in the pipeline as mentioned in the scipt above which will destroy the created infrastructure. 
