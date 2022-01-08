@@ -28,5 +28,5 @@ You will be using the following technologies and platforms to set up a DevOps en
 
 ## Steps Performed in the Project
 1. Created a directory in local machine and crated two terraform files-
-   .provider.tf to mention the AWS provided with the region defined
-   VPC.tf to mentioned the virtual private cloud components
+     - provider.tf to mention the AWS provided with the region defined
+     - VPC.tf to mentioned the virtual private cloud components
