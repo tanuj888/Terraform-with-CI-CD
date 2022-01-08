@@ -27,11 +27,11 @@ You will be using the following technologies and platforms to set up a DevOps en
 7. Create an **IAM role** with full **administrative access** and attach it to the EC2 instance.
 
 ## Steps Performed in the Project
-1. Created a directory in local machine and crated two terraform files-
+1. ### Created a directory in local machine and create two terraform files-
      - Provider.tf to mention the AWS provided with the region defined. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
      - VPC.tf to mentioned the virtual private cloud components. [Reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc)
      
-2. ## Push the code in Github
+2. ### Push the code in Github
  ````
  git init -x main
  git add .
